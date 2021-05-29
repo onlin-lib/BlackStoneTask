@@ -1,0 +1,26 @@
+@import 'myApp';
+
+.layout-wrapper{
+  // height: 98vh;
+  display: flex;
+  background-color: $light-gray;
+  .side-menu-wrapper{
+    width: 280px;
+    background-color: $white;
+  }
+  .pages-wrapper{
+    width: calc(100% - 730px);
+    @include xlarge-screen{
+      width: calc(100% - 280px);
+    }
+  }
+  .side-filter-wrapper{
+    width: 450px;
+    margin-top: 40px;
+    border-left: 1px solid $border-gray;
+    margin-bottom: 10px;
+    @include xlarge-screen{
+      display: none;
+    }
+  }
+}

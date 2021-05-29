@@ -1,0 +1,44 @@
+{
+  "myCards":  [
+    {
+      "cardId":"1",
+      "cardImage": "http://st3.depositphotos.com/13324256/17675/i/600/depositphotos_176758222-stock-photo-beautiful-gerbera-flower-isolated-black.jpg",
+      "poster":{
+        "image": "assets/images/profile.png",
+        "name":"Moahmed Ahmed"
+      },
+      "loves":0,
+      "comments": 15
+    },
+    {
+      "cardId":"2",
+      "cardImage": "https://st.depositphotos.com/2692701/3194/i/450/depositphotos_31946457-stock-photo-scenic-lake.jpg",
+      "poster":{
+        "image": "assets/images/profile1.jpg",
+        "name":"Mostafa Salah"
+      },
+      "loves":0,
+      "comments": 3
+    },
+    {
+      "cardId":"3",
+      "cardImage": "http://st2.depositphotos.com/2767614/6331/i/450/depositphotos_63316677-stock-photo-mountain-reflection-in-the-lake.jpg,%20//st2.depositphotos.com/2767614/6331/i/600/depositphotos_63316677-stock-photo-mountain-reflection-in-the-lake.jpg%202x",
+      "poster":{
+        "image": "assets/images/profile2.jpg",
+        "name":"Kareem Ibrahim"
+      },
+      "loves":0,
+      "comments": 7
+    },
+    {
+      "cardId":"4",
+      "cardImage": "//st3.depositphotos.com/16149430/18800/i/600/depositphotos_188002398-stock-photo-green-leaves.jpg",
+      "poster":{
+        "image": "assets/images/profile3.jpg",
+        "name":"Asmaa Mohamed"
+      },
+      "loves":0,
+      "comments": 5
+    }
+  ]
+}

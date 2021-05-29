@@ -1,0 +1,15 @@
+@import 'myApp';
+.my-friend-wrapper{
+  display: flex;
+  justify-content: center;
+  .my-friends-list{
+    display: flex;
+    @include large-screen{
+      overflow-x: scroll;
+    }
+    .adding-spaces{
+      margin: 0px 20px;
+    }
+  }
+}
+

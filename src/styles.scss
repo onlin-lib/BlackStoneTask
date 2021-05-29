@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'myApp';
+body{
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $scroll-gray;
+}
+.dark-scroll::-webkit-scrollbar-thumb {
+  background: $scroll-dark-gray;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}

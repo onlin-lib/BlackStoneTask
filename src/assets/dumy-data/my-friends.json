@@ -1,0 +1,34 @@
+{
+  "myFriends":[
+    {
+      "image" : "assets/images/profile.png",
+      "active" : false,
+      "name" : "Mostafa"
+    },
+    {
+      "image" : "assets/images/profile4.jpeg",
+      "active" : false,
+      "name" : "Mostafa"
+    },
+    {
+      "image" : "assets/images/profile2.jpg",
+      "active" : false,
+      "name" : "Mostafa"
+    },
+    {
+      "image" : "assets/images/profile3.jpg",
+      "active" : true,
+      "name" : "Mostafa"
+    },
+    {
+      "image" : "assets/images/profile.png",
+      "active" : true,
+      "name" : "Mostafa"
+    },
+    {
+      "image" : "assets/images/profile1.jpg",
+      "active" : true,
+      "name" : "Mostafa"
+    }
+  ]
+}

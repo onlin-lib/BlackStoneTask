@@ -1,0 +1,21 @@
+<div class="card-iner-wrapper">
+  <div class="post-image">
+    <img [src]="card.cardImage">
+  </div>
+  <div class="post-details">
+      <div class="poster">
+        <img [src]="card.poster.image">
+        <span class="poster-name">{{card.poster.name}}</span>
+      </div>
+      <div class="post-likes">
+        <span class="icon-number heart">
+          <i class="fa fa-heart" (click)="love()"></i>
+          <span class="number">{{card.loves}}</span>
+        </span>
+        <span  class="icon-number">
+          <i class="fa fa-comment icon"></i>
+          <span  class="number">{{card.comments}}</span>
+        </span>
+      </div>
+  </div>
+</div>

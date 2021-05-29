@@ -1,0 +1,10 @@
+
+    <div class="my-friend-wrapper">
+
+      <div class="my-friends-list">
+        <app-avatar [shadow]="true" [image]="'assets/images/profile.png'" [smallSize]="false" [border]="true" [active]="true"  label="You"></app-avatar>
+
+        <app-avatar *ngFor="let freind of friends" class="adding-spaces"
+        [image]="freind.image" [smallSize]="false" [border]="true" [active]="freind.active"  [label]="freind.name"></app-avatar>
+      </div>
+    </div>

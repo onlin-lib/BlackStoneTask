@@ -1,0 +1,12 @@
+<div class="person-follow">
+  <div class="person-details">
+    <app-avatar [image]="person.image" [smallSize]="true" [border]="false" [active]="false"></app-avatar>
+    <div class="person-name-email">
+      <div class="name">{{person.name}}</div>
+      <div class="email">{{person.mail}}</div>
+    </div>
+  </div>
+  <div class="follow-button" [ngClass]="{'follow': !person.didFollow}">
+    {{person.didFollow ? 'Followed' : 'Follow'}}
+  </div>
+</div>

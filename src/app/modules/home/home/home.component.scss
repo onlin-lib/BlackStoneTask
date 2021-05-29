@@ -1,0 +1,57 @@
+@import 'myApp';
+
+.home-page-wraaper{
+  .home-frinds{
+    padding: 30px 0px;
+    border-bottom: 1px solid $border-gray;
+    margin: 0px 30px;
+    @include large-screen{
+      // display: none;
+    }
+  }
+  .side-filter-responisv{
+    margin: 30px;
+    display: none;
+    @include xlarge-screen{
+      display: block;
+    }
+  }
+
+  .home-body{
+    margin: 30px;
+    .body-header{
+      display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: $dark-blue;
+    margin-bottom: 30px;
+      .title{
+
+      }
+      .my-tabs{
+        color: $gray;
+        .tab{
+          margin: 0px 25px;
+        }
+        span{
+          cursor: pointer;
+        }
+        .active{
+          color: $active-color;
+        }
+      }
+    }
+
+    .crads-wrapper{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      .single-card{
+        width: 48%;
+        margin-bottom: 40px;
+      }
+    }
+  }
+}

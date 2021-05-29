@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { LoadingService} from'src/app/core/services/loading.service';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'blackston-task';
+
+  constructor(public loadingService : LoadingService){
+
+  }
 }

@@ -1,0 +1,13 @@
+<div class="avatar-text-wrapper" [ngClass]="{'small-size': smallSize}">
+  <div class="avatar-wrapper" [ngClass]="{'border': border , 'active' : active }">
+    <img [src]="image">
+
+    <div class="shadow" *ngIf="shadow"></div>
+    <div class="add-icon" *ngIf="shadow">
+      <i class="fa fa-plus icon"></i>
+    </div>
+  </div>
+  <div class="label" *ngIf="label">
+    {{label}}
+  </div>
+</div>

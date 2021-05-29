@@ -1,0 +1,30 @@
+@import 'myApp';
+.shadow{
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: $black;
+  opacity: 0.4;
+}
+.loading-outer-wrapper{
+  height: 100%;
+  .loading-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    border: 0;
+    left: 0;
+    right: 0;
+    span{
+      font-size: 30px;
+      color: $white;
+      font-weight: bold;
+    }
+  }
+
+}

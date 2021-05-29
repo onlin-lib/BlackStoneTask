@@ -1,0 +1,49 @@
+@import 'myApp';
+
+.person-follow{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+  .person-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .person-name-email{
+      padding: 0px 10px;
+      color: $dark-blue;
+      font-size: 18px;
+      font-weight: bold;
+      .name{
+
+      }
+      .email{
+        font-size: 14px;
+        color: $gray;
+        width: 80%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        margin-top: 5px;
+      }
+    }
+  }
+  .follow-button{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: $border-gray;
+    border: 1px solid $border-gray;
+    color: $dark-blue;
+
+    &.follow{
+      background-color: $active-color;
+      border: none;
+      color: $white;
+    }
+  }
+}

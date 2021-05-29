@@ -1,0 +1,43 @@
+<div class="home-page-wraaper">
+  <div class="home-frinds">
+    <app-my-friends [friends]="friends"></app-my-friends>
+  </div>
+
+  <div class="side-filter-responisv">
+    <div class="suggested-persons">
+      <div class="suggested-title">
+        <span class="title">Suggested For You</span>
+        <span class="see-all">See All</span>
+      </div>
+      <div class="persons-wrapper">
+        <div class="single-person" *ngFor="let person of persons">
+          <app-person [person]="person"></app-person>
+        </div>
+      </div>
+    </div>
+    <div class="latest-post">
+      <div class="title">Latest Post Activity</div>
+      <div class="post-wrapper">
+        <app-post></app-post>
+      </div>
+    </div>
+  </div>
+
+  <div class="home-body">
+    <div class="body-header">
+      <span class="title">Feeds</span>
+      <div class="my-tabs">
+        <span class="tab">All</span>
+        <span >Following</span>
+        <span class="tab">Newest</span>
+        <span class="active">Popular</span>
+      </div>
+    </div>
+
+    <div class="crads-wrapper">
+      <div class="single-card" *ngFor="let card of cards">
+        <app-card [card]="card" (onCardLoved)="cardLoved($event)"></app-card>
+      </div>
+    </div>
+  </div>
+</div>

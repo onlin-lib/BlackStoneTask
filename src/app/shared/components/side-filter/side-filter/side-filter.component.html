@@ -1,0 +1,48 @@
+<div class="side-filter-iner">
+  <div class="tools-wrapper">
+    <div class="search">
+      <i class="fa fa-search icon"></i>
+      <input type="text" placeholder="Search" class="search-input">
+    </div>
+    <div class="notification">
+      <i class="fa fa-bell"></i>
+      <span class="red-dot"></span>
+    </div>
+    <div class="upload">
+      <i class="fa fa-cloud"></i>
+    </div>
+  </div>
+
+  <div class="suggested-persons">
+    <div class="suggested-title">
+      <span class="title">Suggested For You</span>
+      <span class="see-all">See All</span>
+    </div>
+    <div class="persons-wrapper">
+      <div class="single-person" *ngFor="let person of persons">
+        <app-person [person]="person"></app-person>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="latest-post">
+    <div class="title">Latest Post Activity</div>
+    <div class="post-wrapper">
+      <app-post></app-post>
+    </div>
+  </div>
+
+  <div class="footer-wrapper">
+    <span class="text">About</span>
+    <span class="dot">.</span>
+    <span class="text">Help</span>
+    <span class="dot">.</span>
+    <span class="text">Terms</span>
+    <span class="dot">.</span>
+    <span class="text">Popular</span>
+    <span class="dot">.</span>
+    <span class="text">Language</span>
+  </div>
+</div>
